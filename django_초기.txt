@@ -1,0 +1,7 @@
+django-admin startprojext cakd_dj
+cd cakd_dj
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py startapp blog
+python manage.py startapp single_pages
+python manage.py runserver
