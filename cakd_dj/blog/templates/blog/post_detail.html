@@ -13,6 +13,10 @@
         <header class="mb-4">
             <!-- Post title-->
             <h1 class="fw-bolder mb-1">{{post.title}}</h1>
+            <!-- Author -->
+            <p class="lead">
+                <a href="#">{{post.author | upper}}</a>
+            </p>
             <!-- Post meta content-->
             <div class="text-muted fst-italic mb-2">{{post.created_at}}</div>
             <!-- Post categories-->
